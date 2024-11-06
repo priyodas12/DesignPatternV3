@@ -1,6 +1,6 @@
 package tech.java.solid.principles.OCP;
 
-public interface PaymentOption {
+public interface Payment {
 
-  void pay();
+  void pay(PaymentType paymentType);
 }

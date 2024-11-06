@@ -1,9 +1,6 @@
-package tech.java.solid.principles;
+package tech.java.solid.principles.SRP;
 
 /*A class should have only one reason to change.*/
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * <pre>
@@ -14,47 +11,5 @@ import java.util.List;
  */
 public class SingleResponsibilityPrinciple {
   //metadata:class
-}
-
-// single responsibility
-class OrderCalculator {
-
-  public double calculateTotal(Order order) {
-    double total = 0;
-    for (Item item : order.getItems()) {
-      total += item.getPrice();
-    }
-    return total;
-  }
-}
-
-class Order {
-
-  private List<Item> items = new ArrayList<>();
-
-  public void addItem(Item item) {
-    items.add(item);
-  }
-
-  public void removeItem(Item item) {
-    items.remove(item);
-  }
-
-  public List<Item> getItems() {
-    return items;
-  }
-}
-
-class Item {
-
-  private double price;
-
-  public double getPrice() {
-    return price;
-  }
-
-  public void setPrice(double price) {
-    this.price = price;
-  }
 }
 

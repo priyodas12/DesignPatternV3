@@ -1,4 +1,6 @@
 package tech.java.solid.principles.LSP;
 
-public class Shape {
+public abstract class Shape {
+
+  public abstract int getArea();
 }
