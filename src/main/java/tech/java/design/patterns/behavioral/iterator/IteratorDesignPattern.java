@@ -1,4 +1,4 @@
-package tech.java.design.patterns.behavioral.Iterator;
+package tech.java.design.patterns.behavioral.iterator;
 
 import java.util.Arrays;
 import java.util.Iterator;

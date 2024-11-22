@@ -1,4 +1,4 @@
-package tech.java.design.patterns.behavioral.ChainofResponsibilityPattern;
+package tech.java.design.patterns.behavioral.chainOfResponsibilityPattern;
 
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
